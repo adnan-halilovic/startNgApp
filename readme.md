@@ -1,5 +1,5 @@
  #- StartNgApp - Blank AngularJS Project
- ### Quick start for building your AngularJS app (5 fast steps)
+### Quick start for building your AngularJS app (5 fast steps)
 
 ##About
 **StartNgApp** is all you need to begin a process of creating an *AngularJS App*.
