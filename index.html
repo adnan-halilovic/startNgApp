@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>YOUR APP TITLE</title>
+</head>
+<body ng-app="myApp">
+	
+	<!-- App View  -->
+	<ui-view></ui-view>
+
+	<!-- CSS -->
+		<!-- Bootstrap Minified  -->
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	
+	<!-- JS -->
+		<!-- Angular + Dependencies -->
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="bower_components/angular-resource/angular-resource.min.js"></script>
+		<!-- jQuery -->
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+	<!-- App -->
+	<script src="app.js"></script>
+
+	<!-- Distribution files -->
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="app/dist/css/style.min.css">
+		<!-- JS Controllers, Directives, Services -->
+		<script src="app/dist/js/scripts.min.js"></script>
+</body>
+</html>

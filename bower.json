@@ -1,0 +1,22 @@
+{
+  "name": "appname",
+  "description": "FRESH APP START POINT",
+  "main": "app.js",
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-resource": "^1.6.2",
+    "jquery": "^3.1.1",
+    "angular-ui-router": "^0.4.2",
+    "angular": "^1.6.2",
+    "bootstrap": "^3.3.7"
+  }
+}
