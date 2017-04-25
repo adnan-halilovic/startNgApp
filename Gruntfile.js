@@ -55,7 +55,7 @@ module.exports = function(grunt) {
 	watch: {
 		// JS fajlovi .controller.js, .services.js.. u scripts.js
 		js: {
-			files: ['app/**/*.js', 'assets/js/*.js'],
+			files: ['app/components/**/*.js', 'assets/js/*.js'],
 			tasks: ['concat', 'ngAnnotate', 'uglify']
 		},
 		// SASS SCSS fajlovi u .min.css
